@@ -1,7 +1,7 @@
-public class Application{
+public class Application {
     public static void main(String[] args) {
-        Produit p1 = new Produit();
-        Produit p2 = new Produit(12);
-        Produit p = new Produit(12,"Smartphone",8);
+        Produit p = new Produit(12, "Smartphone", 8,15.2f);
+        p.setRef("Abcdef");
+        System.out.println(p);
     }
 }
